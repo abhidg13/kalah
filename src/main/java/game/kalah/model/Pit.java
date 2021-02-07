@@ -49,4 +49,12 @@ public class Pit {
         return (this.getId() == Player.PLAYER_NORTH.getHouseIndex())
                || (this.getId() == Player.PLAYER_SOUTH.getHouseIndex());
     }
+
+    @Override
+    public String toString() {
+        return "Pit{" +
+                "id=" + id +
+                ", stoneCount=" + stoneCount +
+                '}';
+    }
 }

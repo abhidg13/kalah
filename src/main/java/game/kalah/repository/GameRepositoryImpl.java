@@ -6,7 +6,6 @@ import java.util.Map;
 import org.springframework.stereotype.Service;
 
 import game.kalah.model.Game;
-import game.kalah.exception.GameNotFoundException;
 
 @Service
 public class GameRepositoryImpl implements GameRepository {

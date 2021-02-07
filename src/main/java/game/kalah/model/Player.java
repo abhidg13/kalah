@@ -5,7 +5,7 @@ public enum Player {
     PLAYER_NORTH(Board.PIT_END_INDEX / 2),
     PLAYER_SOUTH(Board.PIT_END_INDEX);
 
-    private int houseIndex;
+    private final int houseIndex;
 
     Player(final int houseIndex) {
         this.houseIndex = houseIndex;

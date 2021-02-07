@@ -18,9 +18,7 @@ public class GameResponse {
         this.status = status;
     }
 
-    public String getId() {
-        return id;
-    }
+    public String getId() { return id; }
 
     public String getUri() {
         return uri;

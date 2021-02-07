@@ -12,7 +12,7 @@ public class IllegalMoveExceptionTest {
 
   @Test
   public void testInitialization() {
-    final IllegalMoveException givenIllegalMoveException = new IllegalMoveException("move1");
+    final IllegalMoveException givenIllegalMoveException = new IllegalMoveException("move1", 1);
 
     Assert.assertEquals("Illegal move: move1", givenIllegalMoveException.getMessage());
   }

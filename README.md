@@ -25,7 +25,7 @@ the game is the player who has the most stones in his big pit.
 
 ### Prerequisites
 
-* Java 1.8 - Programming language
+* Java 11 - Programming language
 
 ### Running
 
@@ -33,7 +33,11 @@ the game is the player who has the most stones in his big pit.
 ./mvnw spring-boot:run
 ```
 
-API endpoint documentation: <http://localhost:8080/swagger-ui.html>
+API endpoint documentation: <http://localhost:8080/swagger-ui.html#/game-controller>
+
+API endpoint's:
+* Create game - <http://localhost:8080/games> (POST)
+* Play game - <http://localhost:8080/games/{gameId}/pits/{pitId}> (PUT)
 
 ### Running the tests
 
